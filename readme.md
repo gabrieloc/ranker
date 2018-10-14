@@ -8,9 +8,9 @@ A tool for determining how high your Reddit comment will score using machine lea
 $ swift Ranker.swift
 ```
 
-Generation of the MLModel is based off post and comment limit. Right now, the script fetches 100 posts from `top`, and up to 500 comments per post. It stores comment text and score then uses that to train an `MLTextClassifier`. Training takes about a minute the first time around, but is cached for subsequent runs.
+The script fetches 100 posts from `top`, and up to 500 comments per post. It stores comment text and score then uses that to train an `MLTextClassifier`. Training takes about a minute the first time around, but is cached for subsequent runs.
 
-If you have any questions, hmu. [@_gabrieloc](https://twitter.com/_GABRIELOC).
+If you have any questions, hmu [@_gabrieloc](https://twitter.com/_GABRIELOC).
 
 
 ![ranker setup](setup.gif)
