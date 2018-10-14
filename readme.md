@@ -1,7 +1,6 @@
 # COMMENT RANKER
 
-![ranker banner](banner
-.png)
+![ranker banner](banner.png)
 
 A tool for determining how high your Reddit comment will score using machine learning. To run, simply call
 
